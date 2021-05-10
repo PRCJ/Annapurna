@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".GiveFood">
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="36dp"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FDFBFB"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/Address"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="79dp" />
+
+            <EditText
+                android:id="@+id/phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Phone number"
+                android:inputType="phone"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                tools:layout_editor_absoluteX="39dp"
+                tools:layout_editor_absoluteY="27dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFEB3B"
+                android:text="Please state the quantity of food you have"
+
+                android:textColor="#201E1E"
+                android:textColorHint="#FFFFFF"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="140dp" />
+
+            <EditText
+                android:id="@+id/roti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Roti (in quantity)"
+                android:inputType="numberSigned"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                tools:layout_editor_absoluteX="39dp"
+                tools:layout_editor_absoluteY="200dp" />
+
+            <EditText
+                android:id="@+id/sabji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/sabji_in_katori"
+                android:inputType="numberSigned"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="338dp" />
+
+            <EditText
+                android:id="@+id/dal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/dal_in_katori"
+                android:inputType="numberSigned"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="419dp" />
+
+            <EditText
+                android:id="@+id/chawal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Chawal (in katori)"
+                android:inputType="numberSigned"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="493dp" />
+
+            <EditText
+                android:id="@+id/other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Other"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="submit"
+                android:textColor="#292323"
+                tools:layout_editor_absoluteX="146dp"
+                tools:layout_editor_absoluteY="562dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#E3E4EC"
+                android:text="Please keep the food ready between 10-11 am"
+                android:textColor="#151212"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

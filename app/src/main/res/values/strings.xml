@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Annapurna</string>
+    <string name="give_food">give food</string>
+    <string name="need_food">need food</string>
+    <string name="todo">to do</string>
+    <string name="name"></string>
+    <string name="email">email</string>
+    <string name="for_any_assistance_please_contact_07877481044">for_any_assistance_please_contact_07877481044</string>
+    <string name="action_save">save</string>
+    <string name="firebase_email" />
+    <string name="firebase_password" />
+    <string name="firebase_path" />
+    <string name="transport_id" />
+    <string name="start_updates">START LOCATION UPDATES</string>
+    <string name="stop_updates">STOP LOCATION UPDATES</string>
+    <string name="get_last_location">GET LAST LOCATION</string>
+    <string name="_1_give_food">1. Give food</string>
+    <string name="_2_need_food">2. Need food</string>
+    <string name="please_click_on_image_to_proceed">Please click on image to proceed</string>
+    <string name="for_any_assistance_please_contact_on_07877481044">For any assistance please contact on 07877481044</string>
+    <string name="dal_in_katori">Dal (in katori)</string>
+    <string name="sabji_in_katori">Sabji (in katori)</string>
+</resources>
